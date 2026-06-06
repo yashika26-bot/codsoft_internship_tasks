@@ -1,70 +1,26 @@
+# Sales Prediction Dashboard
 
- Iris Flower Classification 
+An interactive Machine Learning dashboard built with Streamlit for predicting sales based on advertising expenditure.
 
-## Tech Stack
-Python, Scikit-learn, Pandas, Matplotlib
+## Features
+- Exploratory Data Analysis
+- Linear Regression Model
+- Random Forest Regressor
+- Sales Forecasting
+- Feature Importance Analysis
+- Interactive Visualizations
 
-## Models Used
-- Logistic Regression
-- Random Forest
-- SVM
-- KNN
+## Technologies Used
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-## Output
-- Accuracy comparison
-- Confusion matrix
-- Feature importance
-=======
+## Run Locally
 
-Titanic Survival Prediction 🚢
-
-Project Overview
-
-This project predicts whether a passenger survived the Titanic disaster using Machine Learning techniques. The dataset includes passenger information such as age, gender, ticket class, fare, family size, and embarkation port.
-
-Objectives
-	•	Perform Exploratory Data Analysis (EDA)
-	•	Handle missing values and preprocess data
-	•	Create meaningful features through feature engineering
-	•	Train and compare multiple machine learning models
-	•	Optimize performance using hyperparameter tuning
-	•	Evaluate model performance with visualizations
-
-Technologies Used
-	•	Python
-	•	Pandas
-	•	NumPy
-	•	Matplotlib
-	•	Seaborn
-	•	Scikit-learn
-
-Machine Learning Models
-	•	Logistic Regression
-	•	Random Forest Classifier
-	•	Gradient Boosting Classifier
-
-Features Engineered
-	•	Title Extraction from Passenger Names
-	•	Family Size
-	•	IsAlone Indicator
-	•	Age Groups
-	•	Fare Categories
-	•	Cabin Availability Indicator
-
-Evaluation Metrics
-	•	Accuracy Score
-	•	ROC-AUC Score
-	•	Confusion Matrix
-	•	Classification Report
-
-Project Outputs
-	•	Exploratory Data Analysis Charts
-	•	Model Comparison Visualization
-	•	ROC Curve
-	•	Feature Importance Analysis
-	•	Confusion Matrix
-
-Results
-
-The Tuned Random Forest Classifier achieved the best performance among all models with high accuracy and ROC-AUC score.
-
+```bash
+pip install -r requirements.txt
+streamlit run app.py
